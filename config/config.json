@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "search-on-the-go-bot-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/searchOnTheGoBot/SearchOnTheGoBotApplicationCustomizer.js",
+          "manifest": "./src/extensions/searchOnTheGoBot/SearchOnTheGoBotApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SearchOnTheGoBotApplicationCustomizerStrings": "lib/extensions/searchOnTheGoBot/loc/{locale}.js"
+  }
+}

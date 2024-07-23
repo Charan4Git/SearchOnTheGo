@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="SearchOnTheGoBot"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="383c737d-12c0-4538-a53e-138d7a5b125d"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>
